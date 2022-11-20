@@ -1,0 +1,48 @@
+@media screen and (max-width: 900px) {
+    .pricing-cards {
+        padding-top: 20px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .pricing-plan-sections {
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-inline: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .line-divider {
+        height: 3px;
+        width: 200px;
+    }
+
+    .plan-section {
+        background: rgb(244, 244, 244);
+        border-radius: 15px;
+        max-width: 200px;
+        text-align: left;
+        padding: 20px 40px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .diamond {
+        background: azure;
+    }
+    .gold {
+        background: rgba(248, 212, 7, 0.197);
+    }
+    .platinum {
+        background: rgba(0, 128, 62, 0.129);
+    }
+
+    .billing-rate {
+        margin-bottom: 20px;
+    }
+}

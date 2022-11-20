@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+/* GENERAL STYLES */
+li {
+    font-size: 14px;
+    padding: 2px 0;
+    text-align: left;
+    list-style: none;
+}
+
+.pricing-cards {
+    padding-top: 50px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.head-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.switch {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 0 5px;
+    background: #D9D9D9;
+    margin-inline: auto;
+    width: max-content;
+}
+
+.switch div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.subscription {
+    display: inline;
+    max-width: 150px;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.paid-license {
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pricing-plan-sections {
+    border-radius: 30px;
+    border: 2px solid black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.plan-top {
+    padding-left: 10px;
+}
+
+.pricing-plan-sections {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.plan-section {
+    border-radius: 5px;
+    /* background: azure; */
+    max-width: 200px;
+    text-align: left;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.plan-head {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan-desc {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price-details {
+    margin-bottom: 10px;
+}
+
+.price-details div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price-details h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.billing-rate {
+    font-size: 16px;
+}
+
+.download {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: rgb(28, 28, 29);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.features-head {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.line-divider {
+    background: rgb(77, 80, 82);
+    width: 1px;
+    display: flex;
+    margin: 20px 0;
+}
