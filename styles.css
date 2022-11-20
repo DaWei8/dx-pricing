@@ -18,9 +18,9 @@ li {
 }
 
 .pricing-cards {
-    padding-top: 50px;
+    padding: 50px;
     text-align: center;
-    padding: 0 50px;
+    margin: 0px auto;
 }
 
 .heading {
@@ -52,6 +52,7 @@ li {
     flex-direction: row;
     align-items: center;
 }
+
 .subscription {
     display: inline;
     max-width: 150px;
@@ -63,6 +64,7 @@ li {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 .paid-license {
     padding: 15px;
     border-radius: 5px;
@@ -72,7 +74,29 @@ li {
     -o-border-radius: 5px;
 }
 
+.plan-top {
+    padding-left: 10px;
+}
+
 .pricing-plan-sections {
+}
+
+/* .diamond {
+    background: azure;
+}
+.gold {
+    background: rgba(248, 212, 7, 0.197);
+}
+.platinum {
+    background: rgba(0, 128, 62, 0.129);
+} */
+
+.pps-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
     padding-inline: 40px;
     border-radius: 30px;
     border: 2px solid black;
@@ -80,17 +104,6 @@ li {
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-}
-
-.plan-top {
-    padding-left: 10px;
-}
-
-.pricing-plan-sections {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 .plan-section {
     border-radius: 5px;
