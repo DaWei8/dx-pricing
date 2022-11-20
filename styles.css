@@ -73,6 +73,7 @@ li {
 }
 
 .pricing-plan-sections {
+    padding-inline: 40px;
     border-radius: 30px;
     border: 2px solid black;
     -webkit-border-radius: 30px;
