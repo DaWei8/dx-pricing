@@ -78,18 +78,6 @@ li {
     padding-left: 10px;
 }
 
-.pricing-plan-sections {
-}
-
-/* .diamond {
-    background: azure;
-}
-.gold {
-    background: rgba(248, 212, 7, 0.197);
-}
-.platinum {
-    background: rgba(0, 128, 62, 0.129);
-} */
 
 .pps-container {
     margin: 0 auto;
@@ -99,7 +87,7 @@ li {
     padding: 20px;
     padding-inline: 40px;
     border-radius: 30px;
-    border: 2px solid black;
+    border: 1px solid black;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
